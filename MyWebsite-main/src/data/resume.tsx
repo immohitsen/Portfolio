@@ -76,7 +76,7 @@ export const DATA = {
       company: "Gokapture Event Technology",
       title: "Web Designer & Developer",
       location: "Raipur, Chhattisgarh",
-      logoUrl: "/cb.png",
+      logoUrl: "/gk.png",
       start: "June 2024",
       end: "July 2024",
       description:
