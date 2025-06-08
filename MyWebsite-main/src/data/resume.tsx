@@ -27,7 +27,6 @@ export const DATA = {
     "Redis",
     "C++",
     "Java",
-    "SQL",
     "TailwindCSS",
     "Express.js",
     "Git",
@@ -133,6 +132,19 @@ export const DATA = {
 
   projects: [
     {
+      title: "Dreamify",
+      href: "https://github.com/immohitsen/Dreamify/",
+      dates: "June 2025",
+      active: true,
+      description:
+        "A tiny, experimental AI-powered dream interpreter. It doesn't decode your dreams — it plays with them. Built with Next.js and a touch of whimsy.",
+      technologies: ["Next.js", "Gemini API", "Aceternity UI"],
+      links: [],
+      image: "/dreamify.png",
+      video: "",
+    },
+    
+    {
       title: "ParseMate",
       href: "https://github.com/immohitsen/ParseMate",
       dates: "March 2025",
@@ -175,18 +187,7 @@ export const DATA = {
       image: "/penza.png",
       video: "",
     },
-    {
-      title: "Headlines",
-      href: "https://github.com/immohitsen/Headlines",
-      dates: "March 2024",
-      active: true,
-      description:
-        "ReactJs powered news app. It fetches content via News API and displays info on the site depending on the category which user wants to see.",
-      technologies: ["MERN", "News API"],
-      links: [],
-      image: "/headlines.png",
-      video: "",
-    },
+    
   ],
 
   hackathons: [
