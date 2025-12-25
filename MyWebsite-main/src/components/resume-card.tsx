@@ -54,7 +54,7 @@ export const ResumeCard = ({
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>
         </div>
-        <div className="flex-grow ml-4 items-center flex-col group">
+        <div className="flex-grow ml-4 items-center flex-col group pb-4">
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
@@ -97,7 +97,7 @@ export const ResumeCard = ({
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm"
+              className="mt-1 text-xs sm:text-sm px-5"
             >
               {description}
             </motion.div>

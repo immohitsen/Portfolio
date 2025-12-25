@@ -72,14 +72,15 @@ export const DATA = {
 
   work: [
     {
-      company: "Gokapture Event Technology",
+      company: "Klay",
+      href: "https://klay.in/",
       title: "Web Designer & Developer",
       location: "Raipur, Chhattisgarh",
-      logoUrl: "/gk.png",
-      start: "June 2024",
-      end: "July 2024",
+      logoUrl: "/klay.png",
+      start: "June 2025",
+      end: "Dec 2025",
       description:
-        "Designed and developed several webpages for the official site of the company. Used wordpress and elementor for developing the site.",
+        "Designed and developed official website of the Rajsons Pharma Pvt Ltd. bengaluru's Biggest pharmaceutical whole selling company having more than 10,000 customers in karnataka with 1000+ employees with multiple branches in PAN India.",
     },
     {
       company: "The Logicgen",
@@ -101,7 +102,7 @@ export const DATA = {
       start: "Mar 2023",
       end: "April 2023",
       description:
-        "Led the end-to-end development of ssfvt.com, driving an 80% surge in online engagement through a seamless React + WordPress integration. Enhanced user experience and performance, resulting in a 30% uptick in customer inquiries. Collaborated with design and content teams to elevate brand visibility by 60% across digital platforms.",
+        "Led the end-to-end development of ssfvt.com, driving an 80% surge in online engagement through a seamless React + WordPress integration. Enhanced user experience and performance, resulting in a 30% uptick in customer inquiries.",
     },
     
   ],
@@ -132,6 +133,18 @@ export const DATA = {
 
   projects: [
     {
+      title: "Jeev Veda",
+      href: "https://github.com/immohitsen/JeevVeda",
+      dates: "October 2025",
+      active: true,
+      description:
+        "JeevVeda is an AI-powered early cancer screening suite with a medical chatbot, blood report analyzer (Gemini API), MRI scan analyzer (ResNet50), and DICOM viewer.",
+      technologies: ["NextJs", "Tailwind", "Resnet50", "FastAPI", "Gemini API"],
+      links: [],
+      image: "/jv.png",
+      video: "",
+    },
+    {
       title: "Dreamify",
       href: "https://github.com/immohitsen/Dreamify/",
       dates: "June 2025",
@@ -143,17 +156,16 @@ export const DATA = {
       image: "/dreamify.png",
       video: "",
     },
-    
     {
-      title: "ParseMate",
-      href: "https://github.com/immohitsen/ParseMate",
-      dates: "March 2025",
+      title: "Invoice Generator",
+      href: "https://github.com/immohitsen/Invoice",
+      dates: "June 2025",
       active: true,
       description:
-        "A smart XML parsing and form rendering app. Upload or paste XML to generate interactive forms instantly.",
-      technologies: ["React Native", "Nativewind", "Expo", "Android"],
+        "A modern invoicing solution for freelancers and small businesses, offering custom templates and seamless PDF export. Built to ensure efficient financial tracking and professional presentation.",
+      technologies: ["Nextjs", "React-Pdf", "Tailwind"],
       links: [],
-      image: "/parsemate.png",
+      image: "/invoice.png",
       video: "",
     },
     {
@@ -175,19 +187,7 @@ export const DATA = {
       image: "/iscrape.jpeg",
       video: "",
     },
-    {
-      title: "Smart Ticketing Software",
-      href: "https://github.com/immohitsen/penzaNew",
-      dates: "March 2025",
-      active: true,
-      description:
-        "A modern customer support ticketing system built with React, Tailwind CSS, and Node.js. Manage tickets, track customer issues, and streamline support workflows.",
-      technologies: ["MERN", "JWT", "Tailwind"],
-      links: [],
-      image: "/penza.png",
-      video: "",
-    },
-    
+        
   ],
 
   hackathons: [
@@ -196,8 +196,23 @@ export const DATA = {
       dates: "March 2023",
       location: "IIT BHU",
       description:
-        "Secured First Runner-Up at Technex'23 (IIT BHU) and 1st position overall at Vigyaan — the National Science Exhibition under Aavartan'23, Central India's largest tech fest hosted by NIT Raipur. Our project, a surveillance bot built for unmanned operations in high-risk border zones, was remotely controlled from a central hub to protect soldiers'lives. The innovation was also featured at IIT Roorkee and spotlighted on their official platforms.",
+        "Secured First Runner-Up at Technex'23 (IIT BHU). Our project, a surveillance bot built for unmanned operations in high-risk border zones, was remotely controlled from a central hub to protect soldiers'lives. The innovation was also featured at IIT Roorkee and spotlighted on their official platforms.",
       image: "/technex.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.linkedin className="h-4 w-4"/>,
+          href: "https://www.linkedin.com/posts/immohitsen_aavartan-startup-nitrr-activity-7033212784867688448-bBz1"
+        }
+      ],
+    },
+    {
+      title: "Border Patrolling UGV",
+      dates: "Feb 2023",
+      location: "NIT Raipur",
+      description:
+        "Secured First Position at National Science Exhibition 2023 (NIT Raipur) at Vigyaan — the National Science Exhibition under Aavartan'23, Central India's largest tech fest hosted by NIT Raipur. Our project is a remotely operated surveillance bot built using Arduino, a motor shield, an ultrasound detector, and Bluetooth communication, enabling unmanned deployment in high-risk border zones to protect soldiers' lives.",
+      image: "/aavarten.jpg",
       links: [
         {
           title: "Source",
