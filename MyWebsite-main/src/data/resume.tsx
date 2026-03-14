@@ -8,9 +8,9 @@ export const DATA = {
   location: "U.P, India",
   locationLink: "https://www.google.com/maps/place/Uttar+Pradesh/",
   description:
-    "Tech enthusiast passionate about building projects and bringing ideas to life.🚀",
+    "Building systems, shipping ideas, and turning curiosity into code. 🚀",
   summary:
-    "I'm a final-year undergrad at NIT Raipur, passionate about [Full-stack development](#skills) and [Frontend Development](#projects). I love building scalable tech, solving real-world problems, and sharing insights on X. I founded The Logicgen, an agency helping creators and businesses grow online. Through freelance work, I've collaborated with 30K+ follower clients, boosting their digital presence. Always eager to learn, I'm actively seeking impactful opportunities to apply my skills and push boundaries.",
+    "Data engineer starting at Trendence, building scalable data pipelines and analytics systems. Final-year undergrad at [NIT Raipur](#education) with strong foundation in Data Structures & Algorithms, [Full-stack Development](#skills) and System Design. Co-Founded [The Logicgen](#work), an agency helping creators and collaborated with 30K+ follower clients, boosting their digital presence. Proven track record in enterprise development, product-focused problem solving, and scaling digital systems.",
   avatarUrl: "/mohit.jpg",
 
   skills: [
