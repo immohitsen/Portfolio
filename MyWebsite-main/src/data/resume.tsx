@@ -133,9 +133,27 @@ export const DATA = {
 
   projects: [
     {
+      title: "Maester AI ",
+      href: "https://github.com/immohitsen/RAG-Chat",
+      dates: "May 2026",
+      active: true,
+      description:
+        "A premium RAG-based AI Assistant built with React and FastAPI. Features efficient document indexing and high-accuracy retrieval-augmented generation using Llama 3.1.",
+      technologies: [
+        "MongoDB Vector DB",
+        "Langchain",
+        "Next.js",
+        "Llama 3.1",
+        "AWS",
+      ],
+      links: [],
+      image: "/maester.png",
+      video: "",
+    },
+    {
       title: "Jeev Veda",
       href: "https://github.com/immohitsen/JeevVeda",
-      dates: "October 2025",
+      dates: "March 2026",
       active: true,
       description:
         "JeevVeda is an AI-powered early cancer screening suite with a medical chatbot, blood report analyzer (Gemini API), MRI scan analyzer (ResNet50), and DICOM viewer.",
@@ -167,26 +185,7 @@ export const DATA = {
       links: [],
       image: "/invoice.png",
       video: "",
-    },
-    {
-      title: "iScrape",
-      href: "https://github.com/immohitsen/iScrape",
-      dates: "Feb 2024",
-      active: true,
-      description:
-        "A sleek and efficient note-taking app designed for seamless organization, quick access, and effortless management of your thoughts and ideas.",
-      technologies: [
-        "MongoDB",
-        "Express.js",
-        "React.js",
-        "Node.js",
-        "TailwindCSS",
-        "JWT",
-      ],
-      links: [],
-      image: "/iscrape.jpeg",
-      video: "",
-    },
+    }
         
   ],
 
